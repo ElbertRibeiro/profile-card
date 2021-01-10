@@ -4,15 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <!-- displays site properly based on user's device -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=375px, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.google.com/specimen/Kumbh+Sans" rel="stylesheet">
 
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      outline: 0;
+      box-sizing: border-box;
+    }
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -23,46 +28,65 @@
     }
 
     .card {
-      font-family: 'Kumbh Sans';
+      transition: 0.3s;
+      background-color: #E7EEDC;
+      margin-top: 13%;
+      margin-left: 37.5%;
+      width: 25%;
+      height: 50%;
+      border: 20px solid #E7EEDC;
     }
 
+    .group {
+      border: 0,2px solid;
+      
+    }
+
+    .container {
+      padding: 2px 6px;
+      background-color: #C0C0C0;
+    }
+
+    img {
+      border-radius: 50%;
+      margin-left: 35%;
+      margin-top: 20%;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
   </style>
 </head>
 
 <body>
-  <div class="card" >
+  <div class="card">
     <img src="images/image-victor.jpg">
-    <h3>Victor Crest 26 </h3>
-    <h4>London</h4>
-    <div>
-      <h2>80K</h2>
-      <h3>Followers</h3>
-    </div>
-    <div>
-      <h2>803k</h2>
-      <h3>Likes</h3>
-    </div>
-    <div>
-      <h2>1.4k</h2>
-      <h3>Photos</h3>
+    <div class="container">
+      <h2>Victor Crest </h2><b>26</b>
+      <h4>London</h4>
+
+      <div class="group">
+        <h2>80K</h2>
+        <h3>Followers</h3>
+
+        <h2>803k</h2>
+        <h3>Likes</h3>
+
+        <h2>1.4k</h2>
+        <h3>Photos</h3>
+      </div>
+
     </div>
   </div>
-  Victor Crest
-  26
-  London
+  <!--Victor Crest 26 London (80K Followers) (803K Likes) (1.4K Photos)-->
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
+</body>
+<footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://elbertribeiro.github.io/">Elbert Ribeiro</a>.
   </div>
-</body>
+</footer>
 
 </html>
