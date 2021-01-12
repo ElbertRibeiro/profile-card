@@ -3,12 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <!-- displays site properly based on user's device -->
   <meta name="viewport" content="width=375px, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.google.com/specimen/Kumbh+Sans" rel="stylesheet">
-
   <title>Frontend Mentor | Profile card component</title>
 
   <style>
@@ -18,6 +15,7 @@
       outline: 0;
       box-sizing: border-box;
     }
+
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -35,11 +33,13 @@
       width: 25%;
       height: 50%;
       border: 20px solid #E7EEDC;
+
+      background-image: url('images/bg-pattern-card.svg');
     }
 
     .group {
-      border: 0,2px solid;
-      
+      border: 0, 2px solid;
+
     }
 
     .container {
@@ -56,6 +56,7 @@
     h2 {
       font-size: 18px;
     }
+
   </style>
 </head>
 
@@ -63,9 +64,11 @@
   <div class="card">
     <img src="images/image-victor.jpg">
     <div class="container">
-      <h2>Victor Crest </h2><b>26</b>
-      <h4>London</h4>
-
+      <div>
+        
+        <h2>Victor Crest 26</h2>
+        <h4>London</h4>
+      </div>
       <div class="group">
         <h2>80K</h2>
         <h3>Followers</h3>
