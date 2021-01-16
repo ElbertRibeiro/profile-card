@@ -1,8 +1,12 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+
 * {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    font-family: 'Kumbh Sans';
+    font-weight: 400px, 700px;
   }
 
 .attribution {
@@ -16,13 +20,14 @@
 
 .card {
     transition: 0.3s;
-    background-color: #dcd9c9;
+    /*background-color: #dcd9c9;*/
     margin-top: 13%;
     margin-left: 37.5%;
     width: 25%;
-    height: 50%;
-    border: 2px solid #E7EEDC;
-  }
+    /*height: 50%;*/
+    border: 0.2px solid #a0a0a0;
+    
+}
 
 .name-card{
   text-align: center;
@@ -30,12 +35,11 @@
 
 .group {
     border: 0, 2px solid;
-
-  }
+}
 
 .container {
     padding: 2px 6px;
-    background-color: #dcd9c9;
+    /*background-color: #dcd9c9;*/
   }
 
 .avatar {
@@ -51,8 +55,11 @@
   }
 
 .status {
-  margin-left: 80px;
+  margin-top: 25px;
+  margin-left: 31px;
   float: left;
+  font-size: 18px;
+  text-align: center;
 }
 
 h2 {
