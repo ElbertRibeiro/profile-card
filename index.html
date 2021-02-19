@@ -1,42 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="./css/styles.css" media="screen" />
+  <link rel="stylesheet" href="css/styles.css">
   <title>Frontend Mentor | Profile card component</title>
 </head>
+
 <body>
-  
-    <img class="pattern-card" alt="bg-pattern-card" src="assets/svg/bg-pattern-card.svg">
-    <img class="avatar" alt="image-victor" src="assets/img/image-victor.jpg">
-    <div class="container">
-      <div class="name-card">
-        <h2>Victor Crest 26</h2>
-        <p>London</p>
-      </div>
-      <div class="group">
-        <div class="status">
-          <h2>80K</h2>
-          <p>Followers</p>
-        </div>
-        <div class="status">
-          <h2>803k</h2>
-          <p>Likes</p>
-        </div>
-        <div class="status">
-          <h2>1.4k</h2>
-          <p>Photos</p>
-        </div>
-      </div>
+  <img src="assets/svg/bg-pattern-top.svg" class="bgtop"="">
+  <img src="assets/svg/bg-pattern-bottom.svg" class="bgbtm"="">
+  <div class="Profilecard">
+    <img src="assets/svg/bg-pattern-card.svg" class="ppbg">
+
+    <div class="pp">
+      <img src="assets/img/image-victor.jpg" class="vicpp">
+      <h1 class="w-700 name">Victor Crest
+        <span class="w-400 grey-blue shift">26</span> <br>
+        <span class="w-400 grey-blue">London</span>
+      </h1>
     </div>
-  
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://elbertribeiro.github.io/">Elbert Ribeiro</a>.
+    <hr>
+
+    <div class="stats">
+      <div class="stat 1">
+        <span class="w-700">80K</span> <br> <span class="w-400 grey btmstat"> Followers
+        </span>
+
+      </div>
+      <div class="stat 2">
+        <span class="w-700"> 803K</span> <br> <span class="w-400 grey btmstat">
+          Likes</span>
+
+      </div>
+      <div class="stat 3">
+        <span class="w-700"> 1.4K</span> <br> <span class="w-400 grey btmstat">
+          Photos</span>
+      </div>
+
     </div>
-  </footer>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">RicePenguin</a>.
+  </div>
 </body>
 </html>
